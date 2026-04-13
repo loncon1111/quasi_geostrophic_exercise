@@ -20,3 +20,6 @@ $$\Phi(x, y, t) = 5.5 \times 10^4 - U_0 f_0 y + V f_0 k^{-1} \sin[k(x-ct)] \cos(
 Sử dụng công thức: $u_g = -\frac{1}{f_0} \frac{\partial \Phi}{\partial y}$ và $v_g = \frac{1}{f_0} \frac{\partial \Phi}{\partial x}$
 $$u_g = U_0 + V \frac{l}{k} \sin(kx) \sin(ly)$$
 $$v_g = V \cos(kx) \cos(ly)$$
+### c. Độ xoáy tương đối địa chuyển ($\zeta_g$)
+Sử dụng công thức: $\zeta_g = \frac{\partial v_g}{\partial x} - \frac{\partial u_g}{\partial y}$
+$$\zeta_g = -V \left( k + \frac{l^2}{k} \right) \sin(kx) \cos(ly)$$
