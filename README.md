@@ -30,7 +30,8 @@ $$\zeta_g = -V \left( k + \frac{l^2}{k} \right) \sin(kx) \cos(ly)$$
 
 ## 3. Yêu cầu sản phẩm
 
-<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/2afa72f1-f489-4950-90ae-2af7149cb25a" />
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/e758c364-b2a5-40e1-8cd8-6ae4feb1156b" />
+
 
 
 Mã nguồn: Viết bằng Fortran, xuất dữ liệu ra định dạng binary trực tiếp (access='direct').
