@@ -29,6 +29,10 @@ Sử dụng công thức: $\zeta_g = \frac{\partial v_g}{\partial x} - \frac{\pa
 $$\zeta_g = -V \left( k + \frac{l^2}{k} \right) \sin(kx) \cos(ly)$$
 
 ## 3. Yêu cầu sản phẩm
+
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/2afa72f1-f489-4950-90ae-2af7149cb25a" />
+
+
 Mã nguồn: Viết bằng Fortran, xuất dữ liệu ra định dạng binary trực tiếp (access='direct').
 
 Tệp điều khiển (.ctl): Để GrADS có thể đọc và hiển thị 3 biến: $\Phi$ (địa thế vị), u (gió đông-tây), v (gió nam-bắc), $\zeta_g$ (độ xoáy).
