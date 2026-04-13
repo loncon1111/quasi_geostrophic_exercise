@@ -27,3 +27,11 @@ $$v_g = V \cos(kx) \cos(ly)$$
 Sử dụng công thức: $\zeta_g = \frac{\partial v_g}{\partial x} - \frac{\partial u_g}{\partial y}$
 
 $$\zeta_g = -V \left( k + \frac{l^2}{k} \right) \sin(kx) \cos(ly)$$
+
+## 3. Yêu cầu sản phẩm
+Mã nguồn: Viết bằng Fortran, xuất dữ liệu ra định dạng binary trực tiếp (access='direct').
+
+Tệp điều khiển (.ctl): Để GrADS có thể đọc và hiển thị 3 biến: $\Phi$ (địa thế vị), u (gió đông-tây), v (gió nam-bắc), $\zeta_g$ (độ xoáy).
+
+Hình ảnh 1: Vẽ bản đồ vector gió đè lên trường địa thế vị được tô màu (shaded)
+Hình ảnh 2: Vẽ và so sánh trường độ xoáy $\zeta_g$ với công thức *hcurl*
