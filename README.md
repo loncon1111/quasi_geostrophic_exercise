@@ -27,7 +27,7 @@ $$v_g = V [\cos(k(x-ct)) + \alpha \cos(2k(x-ct))] \cos(ly)$$
 ### c. Độ xoáy tương đối địa chuyển ($\zeta_g$)
 Sử dụng công thức: $\zeta_g = \frac{\partial v_g}{\partial x} - \frac{\partial u_g}{\partial y}$
 
-$$\zeta_g = -V [\left( k + \frac{l^2}{k} \right) \sin(k(x-ct)) + \left( 4k + \frac{\alpha l^2}{k} \sin(2k(x-ct)) \right)] \cos(ly)$$
+$$\zeta_g = -V [\left( k + \frac{l^2}{k} \right) \sin(k(x-ct)) + \left( 4k + \frac{\alpha l^2}{k} ) \sin(2k(x-ct)) \right)] \cos(ly)$$
 
 ## 3. Yêu cầu sản phẩm
 
