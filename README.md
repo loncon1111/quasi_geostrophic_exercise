@@ -14,7 +14,7 @@ $$\Phi(x, y, t) = 5.5 \times 10^4 - U_0 f_0 y + V f_0 k^{-1} [\sin(k(x-ct)) + \a
   * Tham số Beta: $\beta = 1.67 \times 10^{-11} \, \text{m}^{-1}\text{s}^{-1}$
   * Tham số hình dạng: Sinh viên thực hiện hai trường hợp: $\alpha =0.0$ (dạng elip) và $\alpha = 0.4$
 * **Miền tính:** $-3000 \, \text{km} \le x \le 3000 \, \text{km}$ và $-1000 \, \text{km} \le y \le 1000 \, \text{km}$.
-* **Thời gian khảo sát:** $N_t = 100$ và $\delta{t} = 0.02s$.
+* **Thời gian khảo sát:** $N_t = 100$ và $\delta{t} = 60s$.
 ## 2. Các biểu thức toán học cần lập trình
 ### a. Trường địa thế vị (theo công thức)
 ### b. Thành phần gió địa chuyển ($u_g, v_g$)
