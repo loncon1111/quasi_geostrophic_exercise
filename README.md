@@ -29,15 +29,19 @@ Sử dụng công thức: $\zeta_g = \frac{\partial v_g}{\partial x} - \frac{\pa
 
 $$\zeta_g = -V [\left( k + \frac{l^2}{k} \right) \sin(k(x-ct)) + \left( 4k + \frac{\alpha l^2}{k} ) \sin(2k(x-ct)) \right)] \cos(ly)$$
 
+
 ## 3. Yêu cầu sản phẩm
 
 <img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/e758c364-b2a5-40e1-8cd8-6ae4feb1156b" />
 
 
 
-Mã nguồn: Viết bằng Fortran, xuất dữ liệu ra định dạng binary trực tiếp (access='direct').
+### Mã nguồn: 
+Viết bằng Fortran, tính toán các trường $\Phi , u, v, \zeta_g$ tại mỗi bước thời gian, xuất dữ liệu ra định dạng binary trực tiếp (access='direct').
 
-Tệp điều khiển (.ctl): Để GrADS có thể đọc và hiển thị 3 biến: $\Phi$ (địa thế vị), u (gió đông-tây), v (gió nam-bắc), $\zeta_g$ (độ xoáy).
+### Tệp điều khiển (.ctl): 
+Để GrADS có thể đọc và hiển thị 4 biến: $\Phi$ (địa thế vị), u (gió đông-tây), v (gió nam-bắc), $\zeta_g$ (độ xoáy).
 
-Hình ảnh 1: Vẽ bản đồ vector gió đè lên trường địa thế vị được tô màu (shaded)
-Hình ảnh 2: Vẽ và so sánh trường độ xoáy $\zeta_g$ với công thức *hcurl*
+### Phân tích hình ảnh:
+- Vẽ bản đồ shaded cho $\Phi$. So sánh 2 trường hợp $\alpha = 0.0$ và $\alpha = 0.4$
+- Dùng lệnh `hcurl(u,v)` của GrADS để kiểm chứng lại biến $\zeta_g$ tính từ Fortran
