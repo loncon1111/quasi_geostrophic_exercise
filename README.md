@@ -3,7 +3,9 @@
 # Bài tập: Phân tích các trường động lực học tại mực 500 hPa
 ## 1. Thông số ban đầu
 * **Trường địa thế vị ($\Phi$):**
-$$\Phi(x, y, t) = 5.5 \times 10^4 - U_0 f_0 y + V f_0 k^{-1} [\sin(k(x-ct)) + \alpha \sin(2k(x-ct))] \cos(ly)$$
+bỏ###$$\Phi(x, y, t) = 5.5 \times 10^4 - U_0 f_0 y + V f_0 k^{-1} [\sin(k(x-ct)) + \alpha \sin(2k(x-ct))] \cos(ly)$$
+
+$$\Phi(x, y) = 5.5 \times 10^4 - U_0 f_0 y + V f_0 k^{-1} \sin(k(x-ct)) \cos(ly)$$
 * **Hằng số:**
   * $U_0 = 30 \, \text{m/s}$,
   * $f_0 = 1.0 \times 10^{-4} \, \text{s}^{-1}$
@@ -12,9 +14,10 @@ $$\Phi(x, y, t) = 5.5 \times 10^4 - U_0 f_0 y + V f_0 k^{-1} [\sin(k(x-ct)) + \a
   * Số sóng: $k = 2\pi / L_x$ và $l = 2\pi / L_y$
   * Kích thước đặc trưng: $L_x = 6 \times 10^6 \, \text{m}$ và $L_y = 4 \times 10^6 \, \text{m}$
   * Tham số Beta: $\beta = 1.67 \times 10^{-11} \, \text{m}^{-1}\text{s}^{-1}$
-  * Tham số hình dạng: Sinh viên thực hiện hai trường hợp: $\alpha =0.0$ (dạng elip) và $\alpha = 0.4$
+  bỏ####* Tham số hình dạng: Sinh viên thực hiện hai trường hợp: $\alpha =0.0$ (dạng elip) và $\alpha = 0.4$
 * **Miền tính:** $-3000 \, \text{km} \le x \le 3000 \, \text{km}$ và $-1000 \, \text{km} \le y \le 1000 \, \text{km}$.
-* **Thời gian khảo sát:** $N_t = 100$ và $\delta{t} = 60s$.
+* t = 0
+bỏ###* **Thời gian khảo sát:** $N_t = 100$ và $\delta{t} = 60s$.
 ## 2. Các biểu thức toán học cần lập trình
 ### a. Trường địa thế vị (theo công thức)
 ### b. Thành phần gió địa chuyển ($u_g, v_g$)
